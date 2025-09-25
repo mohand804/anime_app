@@ -5,11 +5,9 @@ This project focuses mainly on UI implementation and code structure best practic
 
 ## 📸 Screenshots
 
-| Home Screen | Details Screen |
-|-------------|----------------|
-| ![Home](screenshots/1.jpg) | ![Details](screenshots/2.jpg) |
-
-*(Place your screenshots inside a `screenshots/` folder in the project and update the paths above.)*
+| Home Screen | Details Screen | Upgrade Plan |
+|-------------|----------------|--------------|
+| ![Home](screenshots/2.jpg) | ![Details](screenshots/4.jpg) | ![Upgrade Plan](screenshots/1.jpg) |
 
 ## 🚀 Getting Started
 
