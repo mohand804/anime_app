@@ -18,7 +18,7 @@ class AnimeApp extends StatelessWidget {
           scaffoldBackgroundColor: Colors.white,
         ),
         debugShowCheckedModeBanner: false,
-        initialRoute: Routes.homeScreen,
+        initialRoute: Routes.plansScreen,
         onGenerateRoute: appRouter.onGenerateRoute,
       ),
     );
