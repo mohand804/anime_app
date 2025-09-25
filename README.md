@@ -1,16 +1,20 @@
-# week2
+# Week2 - Flutter UI Project
 
-A new Flutter project.
+A small Flutter project built with **Clean Architecture** principles.  
+This project focuses mainly on UI implementation and code structure best practices.
 
-## Getting Started
+## 📸 Screenshots
 
-This project is a starting point for a Flutter application.
+| Home Screen | Details Screen |
+|-------------|----------------|
+| ![Home](screenshots/1.jpg) | ![Details](screenshots/2.jpg) |
 
-A few resources to get you started if this is your first Flutter project:
+*(Place your screenshots inside a `screenshots/` folder in the project and update the paths above.)*
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Getting Started
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/week2.git
+cd week2
