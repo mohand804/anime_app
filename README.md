@@ -7,7 +7,7 @@ This project focuses mainly on UI implementation and code structure best practic
 
 | Home Screen | Details Screen | Upgrade Plan |
 |-------------|----------------|--------------|
-| ![Home](screenshots/2.jpg) | ![Details](screenshots/4.jpg) | ![Upgrade Plan](screenshots/1.jpg) |
+| ![Home](screenshots/2.jpg) | ![Details](screenshots/3.jpg) | ![Upgrade Plan](screenshots/1.jpg) |
 
 ## 🚀 Getting Started
 
