@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:week2/core/helpers/spacing.dart';
 import 'package:week2/core/theming/styles.dart';
@@ -34,11 +35,11 @@ class _ImagesAndText extends State<ImagesAndText> {
               ),
 
               Padding(
-                padding: const EdgeInsets.only(top: 365, left: 100),
+                padding: EdgeInsets.only(top: 365.h, left: 100.w),
                 child: Image.asset(
                   "assets/images/demon_slayer.png",
-                  width: 180,
-                  height: 180,
+                  width: 180.w,
+                  height: 180.h,
                 ),
               ),
             ],
@@ -60,7 +61,7 @@ class _ImagesAndText extends State<ImagesAndText> {
           ),
           verticalSpace(7),
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 9),
+            padding: EdgeInsets.symmetric(horizontal: 9.w),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
