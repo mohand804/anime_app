@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:week2/core/helpers/spacing.dart';
 import 'package:week2/core/theming/colors_manger.dart';
 import 'package:week2/core/theming/styles.dart';
