@@ -20,25 +20,8 @@ class _AnimeDetailsScreenState extends State<AnimeDetailsScreen> {
       body: Stack(
         fit: StackFit.expand,
         children: [
-          Image.asset("assets/images/cover.png"),
-          BackdropFilter(
-            filter: ImageFilter.blur(sigmaX: 100, sigmaY: 40),
-
-            child: Container(color: Colors.black.withValues(alpha: 0.4)),
-          ),
-          Container(
-            decoration: const BoxDecoration(
-              gradient: LinearGradient(
-                colors: [
-                  Color.fromARGB(128, 255, 238, 238),
-                  Color.fromARGB(128, 69, 44, 117),
-                ],
-                begin: Alignment.topRight,
-                end: Alignment.centerLeft,
-              ),
-            ),
-            child: ImagesAndText(),
-          ),
+          Image.asset("assets/images/Rectangle.png", fit: BoxFit.cover),
+          ImagesAndText(),
         ],
       ),
       bottomNavigationBar: Container(
