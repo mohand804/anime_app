@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:week2/core/theming/colors_manger.dart';
@@ -29,15 +27,15 @@ class _AnimeDetailsScreenState extends State<AnimeDetailsScreen> {
               decoration: BoxDecoration(
                 gradient: RadialGradient(
                   colors: [
-                    Color(0xFF713649).withOpacity(0.20),
-                    Color(0xFF713649).withOpacity(0.12),
-                    Color(0xFF713649).withOpacity(0.03),
+                    Color(0xFF713649).withValues(alpha: 0.20),
+                    Color(0xFF713649).withValues(alpha: 0.12),
+                    Color(0xFF713649).withValues(alpha: 0.03),
                   ],
                 ),
                 shape: BoxShape.circle,
                 boxShadow: [
                   BoxShadow(
-                    color: Color(0xFF713649).withOpacity(0.15),
+                    color: Color(0xFF713649).withValues(alpha: 0.15),
                     blurRadius: 15.r,
                     spreadRadius: 3.r,
                     offset: Offset(0, 3.h),
@@ -55,15 +53,15 @@ class _AnimeDetailsScreenState extends State<AnimeDetailsScreen> {
               decoration: BoxDecoration(
                 gradient: RadialGradient(
                   colors: [
-                    Color(0xFF713649).withOpacity(0.30),
-                    Color(0xFF713649).withOpacity(0.05),
-                    Color(0xFF713649).withOpacity(0.06),
+                    Color(0xFF713649).withValues(alpha: 0.30),
+                    Color(0xFF713649).withValues(alpha: 0.05),
+                    Color(0xFF713649).withValues(alpha: 0.06),
                   ],
                 ),
                 shape: BoxShape.circle,
                 boxShadow: [
                   BoxShadow(
-                    color: Color(0xFF713649).withOpacity(0.3),
+                    color: Color(0xFF713649).withValues(alpha: 0.3),
                     blurRadius: 18.r,
                     spreadRadius: 4.r,
                     offset: Offset(0, 4.h),
