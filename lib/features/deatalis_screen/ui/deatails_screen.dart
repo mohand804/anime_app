@@ -87,7 +87,7 @@ class _AnimeDetailsScreenState extends State<AnimeDetailsScreen> {
             IconTextButton(
               icon: 'assets/svgs/eye.svg',
               text: 'Watch Now',
-              iconWidth: 22,
+              iconWidth: 11,
             ),
           ],
         ),
